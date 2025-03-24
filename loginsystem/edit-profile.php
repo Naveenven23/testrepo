@@ -5,7 +5,7 @@ if (strlen($_SESSION['id']==0)) {
   } else{
 //Code for Updation 
 if(isset($_POST['update']))
-{
+
     $fname=$_POST['fname'];
     $lname=$_POST['lname'];
     $contact=$_POST['contact'];
